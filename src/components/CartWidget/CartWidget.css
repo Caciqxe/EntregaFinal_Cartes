@@ -1,0 +1,25 @@
+.shoppingCart{
+    height: 5vh;
+    transition: 5s;
+}
+
+.shoppingCart:hover{
+    animation: shoppingCart-bounce infinite 2s linear;
+}
+
+@keyframes shoppingCart-bounce {
+    0% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(1000px);
+      transform: scale(1.2);
+    }
+
+    100% {
+      transform: translateY(0px);
+      transform: scale(1);
+    }
+  }
+  
